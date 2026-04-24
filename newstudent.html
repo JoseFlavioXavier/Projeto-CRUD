@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Cadastrar aluno</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+    <main>
+        <h3>Novo aluno</h3>
+        <form action="index.html"></form>
+
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="novo-aluno" placeholder="João da Silva">
+        </div>
+
+        <div>
+            <label for="CPF">CPF:</label>
+            <input type="text" name="CPF" id="nuremo-cpf" placeholder="000.000.000-00">
+        </div>
+
+        <div>
+            <label for="data-nascimento">Data de nascimento:</label>
+            <input type="date" name="data-nascimento" id="data-nascimento" placeholder="00/00/0000">
+        </div>
+
+        <div>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Rua das maritacas">
+        </div>
+
+        <div>
+            <label for="numero">Número:</label>
+            <input type="text" name="numero" id="numero" placeholder="788">
+        </div>
+
+        <div>
+            <label for="CEP">CEP:</label>
+            <input type="text" name="CEP" id="cep" placeholder="00000-000">
+        </div>
+
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" id="telefone" placeholder="(43)99999-9999">
+        </div>
+
+        <div>
+            <label for="responsavel">Responsável:</label>
+            <input type="text" name="responsavel" id="responsavel" placeholder="Mario Horácio">
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados escolares:</legend>
+        <div>
+            <label for="matricula">Matrícula:</label>
+            <input type="text" name="matricula" id="matricula" placeholder="2022612325">
+        </div>
+        
+        <div>
+            <label for="data-matricula">Data da matrícula</label>
+            <input type="date" name="data-matricula" id="data-matricula">
+        </div>
+
+        <div>
+            <label for="serie">Série/ano</label>
+            <select name="serie" id="serie">
+                <option value="" disabled selected>Selecione a serie</option>
+                <optgroup label="Ensino Fundamental">
+                <option value="5-série">5º série</option>
+                <option value="6-série">6º série</option>
+                <option value="7-série">7º série</option>
+                <option value="8-série">8º série</option>
+                <option value="9-série">9º série</option>
+                </optgroup>
+                <optgroup label="Ensino Médio">
+                <option value="1-colegial">1º colegial</option>
+                <option value="2-colegial">2º colegial</option>
+                <option value="3-colegial">3º colegial</option>
+                </optgroup>
+            </select>
+        </div>
+        </fieldset>
+    </main>
+<body>
+    
+    <script src="script.js"></script>
+</body>
+</html>
